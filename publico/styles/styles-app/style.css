@@ -1,0 +1,370 @@
+
+body,html {
+    background: white;
+    overflow-x: hidden!important;
+    background: url('../../img/fondo.jpeg') ;
+    //background-repeat: no-repeat;
+     background-repeat: repeat;
+    background-size: 100%;
+
+   background-attachment: fixed;
+    overflow: auto;
+}
+
+a {
+    color: #54181f;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+a:hover,a:active {
+    color: white;
+    background-color: #6e6465 !important;
+    font-weight: 900;
+
+}
+
+
+
+.sidebar ul li a.active {
+
+    color: white;
+    background-color: #6e6465 !important;
+
+}
+
+.sidebar ul li {
+
+    border-bottom:  #8c8182  1px solid;
+
+}
+
+
+.sidebar {
+
+    background-color: rgba(248, 248, 248, 0.4) !important;
+
+}
+
+.panel-heading {
+    font-size: 18px;
+    font-weight: 400;
+    background:  url(http://www.mppeuct.gob.ve/sites/all/themes/mcti/img/bg-well-title.png) no-repeat right center;
+    margin: 0 0 20px 0;
+    padding: 8px 16px;
+    border-bottom: none;
+}
+
+.panel-primary > .panel-heading {
+    color: #fff;
+    background-color: #a3303d;
+
+}
+
+.panel-primary  {
+    border-color: #a3303d ;
+
+}
+
+.panel-danger > .panel-heading {
+    color: #fff;
+    background-color:  #f53d3d;
+
+}
+
+.panel-dangery  {
+    border-color:  #f53d3d ;
+
+}
+
+.panel-warning > .panel-heading {
+    color: #fff;
+    background-color: #ff9935;
+
+}
+
+.panel-warning  {
+    border-color: #ff9935 ;
+
+}
+
+.panel-success > .panel-heading {
+    color: #fff;
+    background-color: #33b80a;
+
+}
+
+.panel-success  {
+    border-color: #33b80a ;
+
+}
+
+.panel-rosa > .panel-heading {
+    color: #fff;
+    background-color: #e15e7a;
+
+}
+
+.panel-rosa  {
+    border-color: #e15e7a ;
+
+}
+
+
+
+.panel-naranja > .panel-heading {
+    color: #fff;
+    background-color: #e16333;
+
+}
+
+.panel-naranja  {
+    border-color: #e16333 ;
+
+}
+
+.panel-rosa-vieja > .panel-heading {
+    color: #fff;
+    background-color: #fa8282;
+
+}
+
+.panel-rosa-vieja  {
+    border-color: #fa8282 ;
+
+}
+
+
+
+
+.barra-top,.footer {
+
+    background-image: url("http://localhost/startbootstrap-sb-admin-2-1.0.8/dist/img/fondo2.jpg") 
+
+}
+
+.navbar-default .navbar-brand {
+    color: #190709 !important;
+}
+
+
+
+.footer{
+    padding-left: 22px;border: 0;font-size: 10px;text-align: center
+}
+
+
+//paginador
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    color: #e15e7a;
+}
+
+.pagination>li>a, .pagination>li>span {
+
+    color: #e15e7a;
+
+}
+
+
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #999;
+    border-color: #999;
+}
+
+
+
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    color: white !important;
+    background-color: #6e6465 !important;;
+}
+
+
+.dropdown a:hover{
+
+    background-color: white !important;
+    color: #a3303d !important;
+
+
+}
+
+.open {
+
+    min-width: 246px;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+    border-bottom: 1px solid #f0f0f0;
+
+}
+
+.affix-top {
+    position: static;
+    top: -20px;
+}
+
+.affix .open .dropdown-toggle{
+    color: #a3303d !important;
+
+
+}
+
+
+.affix .open .dropdown-toggle{
+    color: #a3303d !important;
+
+
+}
+.normativa-left{
+
+    height: 50px; 
+    float: left;
+    width: 455px;
+
+}
+
+.normativa-right{
+
+    height: 50px; 
+    float: right;
+    width: 153px;
+
+}
+
+.banner{
+
+    height:  100px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    border-top: 2px solid #eee;
+
+}
+
+
+@media (max-width: 400px) {
+
+
+    .navbar-default .navbar-brand {
+        font-size: 11px !important;
+        font-weight: bold;
+    }
+
+
+
+}
+
+
+
+
+@media (max-width: 512px) {
+
+    .normativa-right{
+
+        display: none;
+    }
+
+
+    .navbar-default .navbar-brand {
+        font-size: 15px;
+        font-weight: bold;
+
+    }
+
+
+}
+
+
+@media (max-width: 680px) {
+    .normativa-left{
+
+        height: 40px; 
+        width: 392px;
+
+    }
+
+    .normativa-right{
+
+        height: 40px; 
+        width: 60px;
+    }
+
+    .banner{
+
+        height: 60px;
+
+    }
+
+
+}
+
+
+.affix .open .dropdown-toggle{
+    color: #a3303d !important;
+
+
+}
+
+
+
+@media (max-width: 767px) {
+
+
+
+
+    .navbar-header{
+
+        border-bottom: 1px solid #6e6465;
+    }
+
+    .dropdown{
+
+        float: right;
+    }
+
+}
+
+
+@media (min-width: 900px) {
+
+    .affix {
+        top: 0;
+        background: rgba(255, 255, 255, 0.9);
+        background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 41%, rgba(163,48,61,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(41%, rgba(246,246,246,1)), color-stop(100%, rgba(163,48,61,1)));
+        background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 41%, rgba(163,48,61,1) 100%);
+        background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 41%, rgba(163,48,61,1) 100%);
+        background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 41%, rgba(163,48,61,1) 100%);
+        background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 41%, rgba(163,48,61,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#a3303d', GradientType=1 );
+
+        width: 100%;
+        -webkit-transition: all .6s ease-in-out;
+        transition: all .6s ease-in-out;
+        border-bottom: 1px solid #f0f0f0;
+
+    }
+
+    .affix .dropdown-toggle {
+        color: #fff !important;
+        -webkit-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+
+    }
+
+
+
+}
+
+
+
+
